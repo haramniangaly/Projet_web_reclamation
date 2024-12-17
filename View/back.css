@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background.jpg-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background.jpg-color 0.3s;
+}
+
+.sidebar-nav a:hover {
+    background.jpg-color: #34495e;
+}
+
+/* Content Area Styles */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background.jpg-color: #f8f9fa;
+}
+
+.content-header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-container {
+    background.jpg: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group button {
+    background.jpg-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background.jpg-color 0.3s;
+}
+
+.form-group button:hover {
+    background.jpg-color: #2980b9;
+}
+
+/* Blog List Styling */
+.blog-list {
+    margin-top: 20px;
+    padding: 20px;
+    background.jpg-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 10px;
+}
+
+/* Blog Card Styling */
+.blog-card {
+    width: 250px;
+    height: 250px;
+    background.jpg-color: #abcceb; /* Post-it Note Yellow */
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.blog-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.blog-card .date {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    flex-grow: 1;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-card .btn-delete {
+    align-self: flex-end;
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.blog-card .btn-delete:hover {
+    color: #f44336;
+}
+
+/* Hover Effect */
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Edit button styling */
+.blog-card .btn-edit {
+    align-self: flex-start;
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.blog-card .btn-edit:hover {
+    color: #1976D2;
+}

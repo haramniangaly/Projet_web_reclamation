@@ -1,0 +1,48 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+body {
+    font-family: 'Gloock', serif;
+    font-size: 18px; 
+    -color: #f9f5e8; 
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; 
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+
+a {
+    color: #8b5e34;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5c3d1d;
+    text-decoration: underline;
+}
+
+button {
+    font-family: 'Gloock', serif;
+    padding: 10px 20px;
+    -color: #4a3625;
+    color: #f9f5e8;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    -color: #3a291c;
+}

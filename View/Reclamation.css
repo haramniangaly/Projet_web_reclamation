@@ -1,0 +1,161 @@
+
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: rgba(255 ,248 ,225 , 0.7); 
+    border: 1px solid #d2b48c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    color:#333;
+    border-radius: 10px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    overflow: auto; 
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.ohara {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+.ohara h1 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-weight: normal;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.navigation {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; 
+    opacity: 0.8;
+}
+
+.navigation a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ecdddd;
+    transition: width 0.3s ease;
+}
+
+.navigation a:hover::before {
+    width: 100%;
+}
+
+.navigation a:hover {
+    transform: scale(1.2);
+}
+
+
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #555;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .animated-button:hover {
+    background: #555;
+    transform: scale(1.1); 
+  }
+  
+  .input-container {
+    width: 100%;
+    max-width: 500px; 
+    margin: 20px auto; 
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  #subject {
+    width: 100%;
+    padding: 12px 16px; 
+    font-size: 16px;
+    border: 2px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+    transition: all 0.3s ease; 
+  }
+  
+  #email {
+    width: 100%;
+    padding: 12px 16px; 
+    font-size: 16px;
+    border: 2px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+    transition: all 0.3s ease; 
+  }
+  #name {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    box-sizing: border-box;
+    transition: all 0.3s ease; 
+  }
+
+  #description {
+    width: 100%;
+    padding: 12px 16px; 
+    font-size: 16px;
+    border: 2px solid #ddd; 
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; 
+    transition: all 0.3s ease; 
+  }

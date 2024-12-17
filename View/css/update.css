@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F9F5F1;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Police plus moderne */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #6E332C;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif; /* Police élégante */
+    font-size: 36px;
+}
+
+/* Form Styling */
+form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #EDE0D4;
+    padding: 30px;
+    border: 1px solid #D3BBA7;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Transition douce pour l'effet de survol */
+}
+
+form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Effet au survol */
+}
+
+/* Label Styling */
+form label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5C4033;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Input Fields Styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #D3BBA7;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-size: 16px;
+    color: #5C4033;
+    box-sizing: border-box; /* S'assurer que le padding ne déforme pas les éléments */
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px; /* Hauteur minimum pour les zones de texte */
+}
+
+/* Button Styling */
+form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #6E332C;
+    color: #FFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition pour le changement de couleur */
+}
+
+form button:hover {
+    background-color: #8E5F47;
+}
+
+/* Link Styling */
+a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    color: #6E332C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #8E5F47;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; /* Taille du titre pour les petits écrans */
+    }
+
+    form {
+        padding: 20px; /* Réduire le padding pour s'adapter aux petits écrans */
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        padding: 10px; /* Moins de padding sur petits écrans */
+    }
+
+    form button {
+        padding: 12px; /* Bouton plus petit sur mobile */
+    }
+
+    a {
+        font-size: 14px; /* Taille de police pour les liens sur mobile */
+    }
+}
